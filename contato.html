@@ -25,17 +25,17 @@
 
         <div id="main">
             
-            <form class="form" id="form" action="contato">
+            <form class="form" id="form" action="contato.html">
 
-                <div class="form-control">
+                <div>
     
                     <label for="" >Nome</label> <br>
-                    <input type="text" id="nome" maxlength="20">
+                    <input type="text" id="nome" required minlength="1">
                     <small class="erro" id="erro1"></small>
                 </div>
                 <br><br>
     
-                <div class="form-control">
+                <div>
     
                     <label>Email</label> <br>
                     <input type="email" id="email">
@@ -43,17 +43,17 @@
     
                 </div>
                 <br><br>    
-                <div class="form-control">
+                <div>
     
                     <label>Telefone</label><br>
-                    <input type="number" id="telefone" maxlength="20">
+                    <input type="number" id="telefone" required minlength="1">
                     <small id="erro3"></small>
     
                 </div>
                 <br><br>
 
                 <label for="">Assunto</label><br>
-                    <select name="---" id="assunto" maxlength="20">
+                    <select name="---" id="assunto" required minlength="1">
                         <option value="">---</option>
                         <option value="">Elogio</option>
                         <option value="">Reclamação</option>
@@ -62,15 +62,15 @@
                     </select>
                     <br><br>
 
-                    <div class="form-control">
+                    <div>
 
                         <label for="">Mensagem</label> <br>
-                        <textarea name="" id="mensagem" cols="80" rows="10"></textarea maxlength="300">    
+                        <textarea name="" id="mensagem" cols="80" rows="10" required minlength="1" required maxlength="300"></textarea>    
                             <small id="erro4"></small>
                     </div>
                     <br><br>
                     
-                <button id="cliquebotao" type="submit" >ENVIAR</button>
+                <button type="sumbit" id="res">Enviar</button>
             </form>
 
 
