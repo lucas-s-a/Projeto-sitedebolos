@@ -193,7 +193,9 @@ a{
     
 }
 
-/* Error and Success */
+
+/* Error and Success 
+
 .form-control.success input {
     border-color: #2ecc71;
   }
@@ -205,7 +207,10 @@ a{
   .form-control.error small {
     visibility: visible;
     color: #e74c3c;
-  }
+  }?
+
+*/
+
 
 /*CSS - RODAPE*/
 
@@ -253,5 +258,10 @@ a{
 }
 
 /*FIM CSS - RODAPE*/
-
+input:invalid,textarea:invalid{
+    border-color:red;
+}
+input:valid{
+    border-color:green;
+}
 
